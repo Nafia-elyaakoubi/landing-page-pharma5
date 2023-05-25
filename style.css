@@ -1,0 +1,406 @@
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+.blueviolet {
+  background-color: #11a1bf;
+}
+
+.lightcoral {
+  background-color: #e1706e;
+}
+
+.white {
+  color: white;
+  font-weight: bold;
+  display: inline;
+}
+
+.blue {
+  color: midnightblue;
+  font-weight: bold;
+  display: inline;
+}
+
+
+
+
+/* titre Quand */
+@media only screen and (min-width: 300px) {
+  h2.heas0 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  h2.smart {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  h3.smart {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  h2.heas0 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  h2.heas0 {
+    font-size: 22px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h2.heas0 {
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  h2.heas0 {
+    font-size: 30px;
+    padding: 20px;
+    
+  }
+}
+@media only screen and (min-width: 1000px) {
+  h2.heas0 {
+    font-size: 30px;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  h2.heas0 {
+    font-size: 25px;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  h2.heas0 {
+    font-size: 35px;
+    padding: 25px;
+  }
+  h2.smart {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 40px;
+  }
+  h3.smart {
+    padding: 30px;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  h2.heas0 {
+    font-size: 40px;
+    padding: 30px;
+  }
+}
+
+
+
+
+/* partie texte  */
+@media only screen and (min-width: 300px) {
+  .text{
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .text{
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .text{
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .text{
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .text{
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .text{
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .text{
+    font-size: 17px;
+   
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .text{
+    font-size: 20px;
+   
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .text {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .text {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .text{
+
+    padding: 30px; 
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .text{
+    font-size: 30px;
+    padding: 15px; 
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .text{
+    padding: 60px; 
+  }
+}
+
+/* titre  */
+@media only screen and (min-width: 300px) {
+  .titre{
+    padding: 60px;
+
+  }
+}
+@media only screen and (min-width: 575px) {
+  .titre{
+    text-align: left;
+    padding: 30px; 
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .titre{
+    text-align: left;
+    padding: 60px; 
+    padding-right: 40px;
+  }
+}
+@media only screen and (min-width: 1112px) {
+  .titre{
+    text-align: left;
+    padding: 50x; 
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 1180px) {
+  .titre{
+    text-align: left;
+    padding: 50px; 
+    padding-right: 40px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .titre{
+    text-align: left;
+    padding-top: 80px; 
+    padding-right: 40px;
+  }
+}
+
+/* mail */
+@media only screen and (min-width: 300px) {
+  h3.jo{
+    font-size: 20px;
+    text-align: center;
+}
+.mail{
+  font-size: 20px;
+  text-align: center;
+}
+}
+@media only screen and (min-width: 575px) {
+  h3.jo{
+    font-size: 30px;
+    text-align: center;
+}
+.mail{
+  font-size: 30px;
+  text-align: center;
+}
+}
+@media only screen and (min-width: 700px) {
+  h3.jo{
+    font-size: 35px;
+    text-align: center;
+}
+.mail{
+  font-size: 35px;
+  text-align: center;
+}
+}
+@media only screen and (min-width: 1000px) {
+  h3.jo{
+    font-size: 50px;
+}
+.mail{
+  font-size: 50px;
+}
+}
+@media only screen and (min-width: 1112px) {
+  h3.jo{
+    font-size: 50px;
+}
+.mail{
+  font-size: 50px;
+}
+}
+@media only screen and (min-width: 1180px) {
+  h3.jo{
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10% ;
+}
+.mail{
+  font-size: 50px;
+}
+}
+@media only screen and (min-width: 1400px) {
+  h3.jo{
+    font-size: 50px;
+    padding-left: 20%;
+    padding-right: 10% ;
+}
+.mail{
+  font-size: 50px;
+}
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255 , 255, 255, 0.1)), url('bgimgbrochure.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image0{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255 , 255, 255, 1)), url('Batiment\ Smart\ Factory.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+  color: white;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+
+/* titre  */
+@media only screen and (min-width: 300px) {
+  .container1{
+    padding: 10px; 
+  }
+}
+@media only screen and (min-width: 575px) {
+  .container1{
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .container1{
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 1112px) {
+  .ticontainer1tre{
+    padding: 40px;
+  }
+}
+@media only screen and (min-width: 1180px) {
+  .container1{
+    padding: 40px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .titcontainer1re{
+padding: 100px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .titcontainer1re{
+padding: 80px;
+  }
+}
+
+/* body0 */
+@media only screen and (min-width: 300px) {
+  .body0{
+    width:280px ;
+    height: 157px;
+  }
+}
+@media only screen and (min-width: 575px) {
+  .body0{
+    width:373px ;
+    height: 210px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .body0{
+    width:280px ;
+    height: 157px;
+  }
+}
+@media only screen and (min-width: 1180px) {
+  .body0{
+    width:392px ;
+    height: 220px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .body0{
+    width:560px ;
+    height: 315px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .body0{
+    width:560px ;
+    height: 315px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .body0{
+width:560px ;
+height: 315px;
+  }
+}
+
+
+
+
